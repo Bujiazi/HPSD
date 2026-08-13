@@ -8,7 +8,7 @@
 
 <div>
     <a href="https://scholar.google.com/citations?user=a8h9Di4AAAAJ" target="_blank">Jiazi Bu*</a><sup></sup> | 
-    <a href="https://github.com/LPengYang/" target="_blank">Pengyang Ling*§</a><sup></sup> | 
+    <a href="https://github.com/LPengYang/" target="_blank">Pengyang Ling*<sup>§</sup></a><sup></sup> | 
     <a href="https://github.com/YujieOuO" target="_blank">Yujie Zhou*</a><sup></sup> |
     <a href="https://codegoat24.github.io/" target="_blank">Yibin Wang</a><sup></sup> |
     <a href="https://yuhangzang.github.io/" target="_blank">Yuhang Zang</a><sup></sup> |
@@ -27,7 +27,7 @@
     <br> University of Science and Technology of China, Fudan University, Shanghai Innovation Institute
     <br> The Chinese University of Hong Kong, CPII under InnoHK, JD.com, Adobe Research
 </div>
-(*<b>Equal Contribution</b>)(§<b>Project leader</b>)(<sup>†</sup><b>Corresponding Author</b>)
+(*<b>Equal Contribution</b>)(<sup>§</sup><b>Project leader</b>)(<sup>†</sup><b>Corresponding Author</b>)
 <br><br>
 
 
