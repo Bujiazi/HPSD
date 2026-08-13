@@ -47,6 +47,59 @@
 </details>
 </div>
 
+## 🎉 Quick Demos
+More results can be found in the [Project Website](https://bujiazi.github.io/hpsd.github.io/).
+
+<table class="center">
+    <tr>
+    <td style="text-align:center;"><b>Vanilla T2V</b></td>
+    <td style="text-align:center;"><b>HPSD (Ours)</b></td>
+    </tr>
+    <tr>
+    <td><img src="__assets__/videos/1_vanilla.gif"></td>
+    <td><img src="__assets__/videos/1_hpsd.gif"></td>
+    </tr>
+    <tr>
+    <td colspan="2" style="text-align:center;"><i>"a ship sailing in the ocean."</i></td>
+    </tr>
+    <tr>
+    <td><img src="__assets__/videos/4_vanilla.gif"></td>
+    <td><img src="__assets__/videos/4_hpsd.gif"></td>
+    </tr>
+    <tr>
+    <td colspan="2" style="text-align:center;"><i>"cars doing a super race in New York."</i></td>
+    </tr>
+    <tr>
+    <td><img src="__assets__/videos/5_vanilla.gif"></td>
+    <td><img src="__assets__/videos/5_hpsd.gif"></td>
+    </tr>
+    <tr>
+    <td colspan="2" style="text-align:center;"><i>"a long eared cat with stripes walking and blinking towards the camera on a hill"</i></td>
+    </tr>
+    <tr>
+    <td><img src="__assets__/videos/6_vanilla.gif"></td>
+    <td><img src="__assets__/videos/6_hpsd.gif"></td>
+    </tr>
+    <tr>
+    <td colspan="2" style="text-align:center;"><i>"bar scene cinematic where a handsome young man with blue eyes is walking."</i></td>
+    </tr>
+    <tr>
+    <td><img src="__assets__/videos/2_vanilla.gif"></td>
+    <td><img src="__assets__/videos/2_hpsd.gif"></td>
+    </tr>
+    <tr>
+    <td colspan="2" style="text-align:center;"><i>"Drone flyover of a Jovian sky colony."</i></td>
+    </tr>
+    <tr>
+    <td><img src="__assets__/videos/3_vanilla.gif"></td>
+    <td><img src="__assets__/videos/3_hpsd.gif"></td>
+    </tr>
+    <tr>
+    <td colspan="2" style="text-align:center;"><i>"photo of coastline, rocks, distant lighthouse in the background, storm weather, strong wind, crashing waves, ..."</i></td>
+    </tr>
+</table>
+
+
 ## 🎨 Overview
 <div style="width: 100%; text-align: center; margin:auto;">
     <img style="width:100%" src="__assets__/hpsd_teaser.png">
