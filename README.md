@@ -88,8 +88,6 @@ Feel free to contact us if you would like remove them.
 
 ## 💞 Acknowledgements
 The code is built upon the below repositories, we thank all the contributors for open-sourcing.
-* [Flux](https://github.com/black-forest-labs/flux)
-* [HunyuanVideo](https://github.com/Tencent-Hunyuan/HunyuanVideo)
-* [WAN 2.1](https://github.com/Wan-Video/Wan2.1)
-* [Sparse VideoGen](https://github.com/svg-project/Sparse-VideoGen)
-* [TeaCache](https://github.com/ali-vilab/TeaCache)
+* [Diffusers](https://github.com/huggingface/diffusers)
+* [WAN-2.2](https://github.com/Wan-Video/Wan2.2)
+* [LTX-2.3](https://github.com/Lightricks/LTX-2)
