@@ -118,8 +118,8 @@ HPSD lets the student start from the teacher's trajectory and finish under its o
 </div>
 
 ## 🖋 News
-- Our Project page is released! (2026.8.14)
-- Paper is available on arXiv! (2026.8.14)
+- Our Project page is available now! (2026.8.14)
+- Our Paper has been released on arXiv! (2026.8.14)
 
 ## 🏗️ Todo
 - [ ] 🚀 Release HPSD code
