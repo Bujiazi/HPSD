@@ -27,7 +27,7 @@
     <br> University of Science and Technology of China, Fudan University, Shanghai Innovation Institute
     <br> The Chinese University of Hong Kong, CPII under InnoHK, JD.com, Adobe Research
 </div>
-(*<b>Equal Contribution</b>)(<sup>§</sup><b>Project leader</b>)(<sup>†</sup><b>Corresponding Author</b>)
+(*<b>Equal Contribution</b>)(<sup>§</sup><b>Project Leader</b>)(<sup>†</sup><b>Corresponding Author</b>)
 <br><br>
 
 
@@ -144,4 +144,6 @@ The code is built upon the below repositories, we thank all the contributors for
 * [Diffusers](https://github.com/huggingface/diffusers)
 * [WAN-2.2](https://github.com/Wan-Video/Wan2.2)
 * [LTX-2.3](https://github.com/Lightricks/LTX-2)
+* [Z-Image](https://github.com/Tongyi-MAI/Z-Image)
+* [Qwen3.6-27B](https://github.com/QwenLM/Qwen3.6)
 * [D-OPSD](https://github.com/vvvvvjdy/D-OPSD)
