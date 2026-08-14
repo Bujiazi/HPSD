@@ -31,7 +31,7 @@
 <br><br>
 
 
-[![arXiv](https://img.shields.io/badge/arXiv-xxxx.xxxxx-b31b1b.svg)](https://github.com/Bujiazi/HPSD) 
+[![arXiv](https://img.shields.io/badge/arXiv-2608.13205-b31b1b.svg)](https://arxiv.org/abs/2608.13205) 
 [![Project Page](https://img.shields.io/badge/Project-Website-green)](https://bujiazi.github.io/hpsd.github.io/)
 
 
