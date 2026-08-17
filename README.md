@@ -130,7 +130,12 @@ HPSD lets the student start from the teacher's trajectory and finish under its o
 
 If you find our work helpful, please consider giving a star ⭐ and citation 📝 
 ```bibtex
-TBD
+@article{bu2026hpsd,
+  title={HPSD: Hybrid-Policy Self-Distillation for Text-Image-to-Video Diffusion Models},
+  author={Bu, Jiazi and Ling, Pengyang and Zhou, Yujie and Wang, Yibin and Zang, Yuhang and Dai, Xuanlang and Ding, Shengyuan and Wei, Tianyi and Zhan, Xiaohang and Wang, Jiaqi and others},
+  journal={arXiv preprint arXiv:2608.13205},
+  year={2026}
+}
 ```
 
 ## 📣 Disclaimer
