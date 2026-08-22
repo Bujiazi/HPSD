@@ -150,21 +150,21 @@ Alternatively, you can download the checkpoints manually and place them followin
 
 ```
 pretrained_models/
-├── WAN2.2-TI2V/                          # Wan-AI/Wan2.2-TI2V-5B-Diffusers（~34 GB）
+├── WAN2.2-TI2V/                          # Wan-AI/Wan2.2-TI2V-5B-Diffusers
 │   ├── transformer/                      #   WanTransformer3DModel
 │   ├── vae/                              #   AutoencoderKLWan
-│   ├── text_encoder/                     #   UMT5EncoderModel（umt5-xxl）
+│   ├── text_encoder/                     #   UMT5EncoderModel
 │   ├── tokenizer/                        #   T5TokenizerFast
 │   ├── scheduler/                        #   UniPCMultistepScheduler
-│   └── model_index.json                  #   WanPipeline（expand_timesteps=true）
-├── Z-Image-Turbo/                        # Tongyi-MAI/Z-Image-Turbo（~33 GB）
+│   └── model_index.json                  #   WanPipeline
+├── Z-Image-Turbo/                        # Tongyi-MAI/Z-Image-Turbo
 │   ├── transformer/                      #   ZImageTransformer2DModel
 │   ├── vae/                              #   AutoencoderKL
 │   ├── text_encoder/                     #   Qwen3Model
 │   ├── tokenizer/                        #   Qwen2Tokenizer
 │   ├── scheduler/                        #   FlowMatchEulerDiscreteScheduler
 │   └── model_index.json                  #   ZImagePipeline
-└── Qwen3.6-27B/                          # Qwen/Qwen3.6-27B（~56 GB）
+└── Qwen3.6-27B/                          # Qwen/Qwen3.6-27B
     ├── config.json
     ├── generation_config.json
     ├── model-00001-of-00015.safetensors  
@@ -219,7 +219,7 @@ num_inference_steps = 50
 guidance_scale = 5.0
 base_seed = 42
 
-prompt = "A sports car speeding along a winding coastal road at sunset. Dynamic low-angle tracking shot, realistic reflections, dramatic clouds, subtle motion blur, cinematic composition."
+prompt = "A white horse galloping across an open grassland under dramatic clouds. Its mane flows naturally in the wind, cinematic wide shot, realistic movement, soft sunlight."
 negative_prompt = "色调艳丽，过曝，静态，细节模糊不清，字幕，风格，作品，画作，画面，静止，整体发灰，最差质量，低质量，JPEG压缩残留，丑陋的，残缺的，多余的手指，画得不好的手部，画得不好的脸部，畸形的，毁容的，形态畸形的肢体，手指融合，静止不动的画面，杂乱的背景，三条腿，背景人很多，倒着走"
 
 generator = torch.Generator(device=device).manual_seed(base_seed)
