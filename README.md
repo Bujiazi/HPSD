@@ -119,13 +119,82 @@ HPSD lets the student start from the teacher's trajectory and finish under its o
 </div>
 
 ## 🖋 News
+- The first version of HPSD code has been released! (2026.8.22)
 - Pre-trained checkpoint is available on Huggingface! (2026.8.22)
 - Our Project page is available now! (2026.8.14)
 - Our Paper has been released on arXiv! (2026.8.14)
 
+## 🔧 Installations
+
+### Setup repository and conda environment
+
+```bash
+git clone https://github.com/Bujiazi/HPSD.git
+cd HPSD
+
+conda create -n hpsd python=3.10
+conda activate hpsd
+
+pip install -r requirements.txt
+```
+
+It is strongly recommended to install the pre-compiled `flash_attn`.
+
+### Download pretrained models
+
+```bash
+bash scripts/download_pretrained_models.sh
+```
+
+Alternatively, you can download the checkpoints manually and place them following the layout below:
+
+```
+pretrained_models/
+├── WAN2.2-TI2V/                          # Wan-AI/Wan2.2-TI2V-5B-Diffusers（~34 GB）
+│   ├── transformer/                      #   WanTransformer3DModel
+│   ├── vae/                              #   AutoencoderKLWan
+│   ├── text_encoder/                     #   UMT5EncoderModel（umt5-xxl）
+│   ├── tokenizer/                        #   T5TokenizerFast
+│   ├── scheduler/                        #   UniPCMultistepScheduler
+│   └── model_index.json                  #   WanPipeline（expand_timesteps=true）
+├── Z-Image-Turbo/                        # Tongyi-MAI/Z-Image-Turbo（~33 GB）
+│   ├── transformer/                      #   ZImageTransformer2DModel
+│   ├── vae/                              #   AutoencoderKL
+│   ├── text_encoder/                     #   Qwen3Model
+│   ├── tokenizer/                        #   Qwen2Tokenizer
+│   ├── scheduler/                        #   FlowMatchEulerDiscreteScheduler
+│   └── model_index.json                  #   ZImagePipeline
+└── Qwen3.6-27B/                          # Qwen/Qwen3.6-27B（~56 GB）
+    ├── config.json
+    ├── generation_config.json
+    ├── model-00001-of-00015.safetensors  
+    ├── ...
+    ├── model-00015-of-00015.safetensors
+    ├── model.safetensors.index.json
+    ├── tokenizer.json                    
+    └── chat_template.jinja
+```
+
+## 🎈 Quick Start
+
+### Data Preparation
+
+```bash
+bash scripts/prepare_data.sh
+```
+
+### HPSD Training
+
+```bash
+bash scripts/train_hpsd.sh
+```
+
+Try our pretrained HPSD checkpoint on [Huggingface🤗](https://huggingface.co/Bujiazi/HPSD).
+
+
 ## 🏗️ Todo
 - [x] 🚀 Release checkpoint on Huggingface
-- [ ] 🚀 Release HPSD code
+- [x] 🚀 Release HPSD code
 - [x] 🚀 Release the project page
 - [x] 🚀 Release paper
 
