@@ -33,6 +33,7 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2608.13205-b31b1b.svg)](https://arxiv.org/abs/2608.13205) 
 [![Project Page](https://img.shields.io/badge/Project-Website-green)](https://bujiazi.github.io/hpsd.github.io/)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-red)](https://huggingface.co/Bujiazi/HPSD)
 
 
 ---
@@ -118,10 +119,12 @@ HPSD lets the student start from the teacher's trajectory and finish under its o
 </div>
 
 ## 🖋 News
+- Pre-trained checkpoint is available on Huggingface! (2026.8.22)
 - Our Project page is available now! (2026.8.14)
 - Our Paper has been released on arXiv! (2026.8.14)
 
 ## 🏗️ Todo
+- [x] 🚀 Release checkpoint on Huggingface
 - [ ] 🚀 Release HPSD code
 - [x] 🚀 Release the project page
 - [x] 🚀 Release paper
