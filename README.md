@@ -48,6 +48,14 @@
 </details>
 </div>
 
+## 🎬 Demonstration Video
+
+<div align="center">
+
+[![]](https://github.com/user-attachments/assets/5a1299fa-a120-43c2-8e78-13291b69ba37)
+
+</div>
+
 ## 🎉 Quick Demos
 More results can be found in the [Project Website](https://bujiazi.github.io/hpsd.github.io/).
 
